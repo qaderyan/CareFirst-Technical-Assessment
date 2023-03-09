@@ -1,8 +1,8 @@
-Employee Management System:
+# Employee Management System:
 
 This Employee Management System is a Java-based application that utilizes Spring Boot and MongoDB. It provides REST API calls for managing employee data, along with exception handling and JUnit test cases. This project was developed by Rohin Qaderyan for the CareFirst FSD Interview Project Request.
 
-Getting Started:
+# Getting Started:
 
 To get started with the Employee Management System, you will need to have Java, Maven, and MongoDB installed on your system. You can then clone this repository and run the application using the following command:
 
@@ -11,7 +11,7 @@ Copy code
 mvn spring-boot:run
 The application will start up on port 8080. You can then access the REST API using your preferred HTTP client.
 
-API Calls
+# API Calls
 The following REST API calls are available:
 
 Method	Endpoint	Description:
@@ -41,11 +41,11 @@ Update an employee by ID
 Delete an employee by ID
 Get employee with constraints
 
-Database:
+# Database:
 
 The Employee Management System uses MongoDB as its database. You can configure the database connection settings in the application.properties file. Here the implementation is done using MongoTemplate as it supports more complex queries.
 
-Technologies Used:
+# Technologies Used:
 
 The following technologies were used in the development of the Employee Management System:
 
@@ -55,10 +55,10 @@ MongoDB
 Maven
 JUnit
 
-Contributing:
+# Contributing:
 
 Contributions to the Employee Management System are welcome. To contribute, please fork this repository, make your changes, and submit a pull request.
 
-License:
+# License:
 
 This project was inspired by the need for a simple and efficient employee management system. Special thanks to the Spring Boot, MongoDB, and JUnit communities for their contributions to open-source software.
